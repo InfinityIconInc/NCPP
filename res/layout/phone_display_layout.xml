@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4b0141"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtPhoneName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgPhone"
+        android:layout_width="139dp"
+        android:layout_height="184dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtPhoneName" />
+
+    <TextView
+        android:id="@+id/txtPhonePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imgPhone"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/imgPhone"
+        android:background="#4b0141"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtPhoneCore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPhonePrice"
+        android:layout_toRightOf="@+id/imgPhone"
+        android:background="#CCCCCC"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtPhoneOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPhoneCore"
+        android:layout_toRightOf="@+id/imgPhone"
+        android:background="#FFCC00"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPhoneOS"
+        android:layout_toRightOf="@+id/imgPhone"
+        android:background="#adadad"
+        android:text="Tap for more Details..."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Mobile Prices</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Latest Phones and Prices</string>
+    <string name="lblTitle">Phones List</string>
+    <string name="ncppweb">NewCellphonePrices.com</string>
+    <string name="strFetching">Fetching New Prices</string>
+    <string name="strWait">Please Wait!</string>
+    <string name="strGetNewPrices">Get New Phones and Prices</string>
+    <string name="strPoweredBy">Powered By: www.NewCellPhonePrices.com</string>
+    <string name="strBrands">Brands</string>
+
+</resources>
